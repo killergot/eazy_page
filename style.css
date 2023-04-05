@@ -1,0 +1,161 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+
+h1 {
+    font-size: 72px;
+    font-weight: bold;
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-style: normal;
+}
+
+h2 {
+    padding-top: 48px; 
+    font-size: 64px;
+    font-weight: 500;
+    color: #007765;
+    text-align: center;
+}
+p{
+    font-size: 32px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.hat__flexbox {
+    display: flex;
+    margin: auto;
+    height: 84px;
+    max-width: 1219px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ancors {
+    display: flex;
+    gap: 10px;
+}
+
+.ancors a,
+.ancors p{
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+.ancors a:hover{
+    font-size: 30px;
+    color: #1e9be3;
+    transition-duration: 1s;
+}
+
+.hat {
+    left: 0;
+    top: 0;
+    right: 0;
+    
+    position: fixed;
+    background: #018259;
+    z-index: 999;
+}
+
+
+.header_one {
+    margin-top: 84px;
+    position: relative;
+    background-image: url(img/background.png);
+    height: 403px;
+}
+
+.problem {
+    margin: auto;
+    margin-top: -84px; 
+    padding-top: 84px;
+    max-width: 1020px;
+}
+
+.problem__text{
+    line-height: 37px;
+    display: flex;
+    flex-direction:column;
+    gap: 32px;
+}
+
+.blueback{
+    background-image: url(img/blue.png);
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.blueback__text{
+    width: 900px;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    padding: 128px 0px;
+}
+
+.ppc__flexbox{
+    max-width: 1020px;
+    margin: auto;
+    margin-bottom: 52px
+}
+
+.ppc__flexbox p{
+    padding-bottom: 40px;
+}
+
+.PPC_logo{
+    float: left;
+    padding-right: 40px;
+}
+
+.team{
+    padding-top:10px;
+    background-color: #EEEEEE;
+}
+
+.team__flexbox{
+    margin: auto;
+    padding: 50px 0 112px 0;
+    width: 950px;
+    display: flex;
+    justify-content: space-between;  
+    flex-wrap: wrap;
+    gap: 82px 200px;
+}
+
+.person__name{
+    color: #007765;
+    text-align: center;
+    font-size: 24px;
+}
+
+.person__prof{
+    text-align: center;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400; 
+}
+
+.end{
+    background-color: #333333;
+}
+
+.end__text{
+    padding: 50px 0 62px 0 ;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
